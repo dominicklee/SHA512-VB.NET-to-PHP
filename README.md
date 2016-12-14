@@ -5,6 +5,8 @@ Several months ago, I learned about SHA-512 hashing algorithms, but I was not ab
 
 Usage instructions are on both the PHP file and the VB.NET form code. Please read them carefully.
 
+To get the best out of this code, it is recommended you have PHP v5.3 or newer and Visual Basic 2008 or newer.
+
 The VB.NET program is set up in a way that is ready to demonstrate the functionality. Please note that this code is distributed "as is".
 
 I hope this helps some developers to secure their apps. Enjoy!
