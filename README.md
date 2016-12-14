@@ -1,4 +1,4 @@
-# SHA512-VB.NET-to-PHP
+# SHA512 VB.NET to PHP
 An effective solution to match a SHA512 hash from VB.NET to PHP and vice-versa.
 
 Several months ago, I learned about SHA-512 hashing algorithms, but I was not able to find any open-source implementation on getting a private key to match from Visual Basic .NET to a PHP application on my server. I wanted to securely send data to my server in as simple way as possible while using industry-standard cryptography algorithms. This is my first approach with SHA512.
