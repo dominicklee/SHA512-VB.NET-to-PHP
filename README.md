@@ -5,7 +5,7 @@ An effective solution to match a SHA512 hash from VB.NET to PHP and vice-versa.
 Several months ago, I learned about SHA-512 hashing algorithms, but I was not able to find any open-source implementation on getting a private key to match from Visual Basic .NET to a PHP application on my server. I wanted to securely send data to my server in as simple way as possible while using industry-standard cryptography algorithms. This is my first approach with SHA512.
 
 ## Purpose
--This is the PHP portion of the system, which serves to synchronize the time between the client and server. The local time is acquired by detecting the user's IP address and detecting the timezone from that. The time is formatted as a string which is changes to a unique number every minute (can be changed to seconds).The time is used as a basic salt added to the hash (or private key) on both PHP and VB.NET codes.
+This is the PHP portion of the system, which serves to synchronize the time between the client and server. The local time is acquired by detecting the user's IP address and detecting the timezone from that. The time is formatted as a string which is changes to a unique number every minute (can be changed to seconds).The time is used as a basic salt added to the hash (or private key) on both PHP and VB.NET codes.
 
 ## Usage
 Usage instructions are also on both the PHP file and the VB.NET form code. Please read them carefully.
