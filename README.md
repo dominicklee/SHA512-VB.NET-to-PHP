@@ -6,11 +6,8 @@ Several months ago, I learned about SHA-512 hashing algorithms, but I was not ab
 
 ## Purpose
 -This is the PHP portion of the system, which serves to synchronize the time between the client and server.
-
 -The local time is acquired by detecting the user's IP address and detecting the timezone from that.
-
 -The time is formatted as a string which is changes to a unique number every minute (can be changed to seconds).
-
 -The time is used as a basic salt added to the hash (or private key) on both PHP and VB.NET codes.
 
 ## Usage
