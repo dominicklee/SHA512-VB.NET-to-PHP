@@ -20,7 +20,7 @@ Usage instructions are also on both the PHP file and the VB.NET form code. Pleas
 
 -If you want the time salt be be changed every second, change line 46 to:
 ```php
-return date("YmdHis"); 	//Show the date in the format of year, month, day, hour, minute
+return date("YmdHis"); 	//Show the date in the format of year, month, day, hour, minute, and seconds
 ```
 ## Requirements
 To get the best out of this code, it is recommended you have PHP v5.3 or newer and Visual Basic 2008 or newer.
